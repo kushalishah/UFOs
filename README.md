@@ -6,11 +6,11 @@ The purpose of this analysis was to build an HTML page that would allow us to pu
 
 ## Results
 
-- ![truth](static/Images/Truth.png)
+- ![truth](Truth.png)
 
 I wanted to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, I added table filters for the city, state, country, and shape. After entering the website details, the link will demonstrate a title, a picture at the top alongside a brief description about the visualization project (as shown in the image above).
 
-- ![table](Images/table.png)
+- ![table](table.png)
 
 Using JavaScript, I replaced the handleClick() function in my app.js file with a new function that saves the element, value, and id of the filter that was changed. Then, I created a new function to loop through the dataset and keep only the results that match the search criteria. The webpage will be updated with the search criteria after pressing "Enter". This is shown in the mage above.
 
